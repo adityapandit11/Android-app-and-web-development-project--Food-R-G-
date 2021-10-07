@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+	<div></div>
+	<p>- - L E T'S - C H A T- With - E A S Y - -</p>
+	<input type="" name="" onchange="respond()">
+	<script type="text/javascript">
+		var known = [
+		     ["hello","Hi , I am Easy , you can ask me anything but i will give answer according to me "],
+		     ["hi","Hi , I am Easy , you can ask me anything but i will give answer according to me "],
+		     ["hey","Hi , I am Easy , you can ask me anything but i will give answer according to me "],
+
+		     ["i am *", "Are you *?"],
+		     ["am i *?","yes you are *, my friend"],
+		     ["what is universal truth", "GOKU is stronger than Saitama"],
+		     ["say * please","*"],
+		     ["say *", "Say please."],
+		     
+		     ["what are your thoughts about naruto","DATTEBAYO"],
+		     
+
+		];
+
+		var input = document.querySelector('input');
+		var output = document.querySelector('div');
+
+		function postChat(text,poster) {
+
+			var bubble = document.createElement("p");
+			bubble.innerText = text;
+			bubble.className = poster;
+			output.appendChild(bubble);
+		}
+
+		function respond(){
+			var text = input.value;
+			input.value = "";
+			postChat(text,"user");
+			response = think(text);
+			postChat(response,"bot");
+		}
+
+		function filter(text) {
+			text = text.toLowerCase();
+			return(text);
+
+		}
+
+		function think(user) {
+			user = filter(user);
+			for(var [key, value] of known){
+				if (key.includes('*')) {
+					key = key.split('*');
+
+					if (user.startsWith(key[0]) && user.endsWith(key[1])) {
+						firstIndex = key[0].length;
+						finalIndex = user.lastIndexOf(key[1]);
+						custom = user.slice(firstIndex, finalIndex);
+						return(value.replace('*',custom));
+					}
+				} else if(user == key) {
+					return(value);
+				}
+			}
+			return("What?")
+		}
+	</script>
+
+
+</body>
+</html>
