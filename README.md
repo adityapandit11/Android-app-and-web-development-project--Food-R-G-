@@ -26,19 +26,20 @@ Software and languages used for creating this application:
 ∙       Sublime text 3 with HTML and CSS
 
 Screenshots :-
-![1](https://user-images.githubusercontent.com/66800459/136434592-4909978f-fdee-41ef-9b80-00df9007d08f.jpeg)
 
-![2](https://user-images.githubusercontent.com/66800459/136434591-44180ae8-dfdd-4668-875a-a2c917a83fb5.jpeg)
+<img src="https://user-images.githubusercontent.com/66800459/136434592-4909978f-fdee-41ef-9b80-00df9007d08f.jpeg" width=30% height=10%>
 
-![3](https://user-images.githubusercontent.com/66800459/136434580-2036f5a8-76c4-4bc6-958c-b5ea2b080d3a.jpeg)
+<img src="https://user-images.githubusercontent.com/66800459/136434591-44180ae8-dfdd-4668-875a-a2c917a83fb5.jpeg" width=30% height=10%>
 
-![4](https://user-images.githubusercontent.com/66800459/136434587-24319ac1-08aa-4048-b104-756ceb8b0957.jpeg)
+<img src="https://user-images.githubusercontent.com/66800459/136434580-2036f5a8-76c4-4bc6-958c-b5ea2b080d3a.jpeg" width=30% height=10%>
 
-![5](https://user-images.githubusercontent.com/66800459/136434573-71a29700-7566-4d8d-a307-5c3cdec99a5d.jpeg)
+<img src="https://user-images.githubusercontent.com/66800459/136434587-24319ac1-08aa-4048-b104-756ceb8b0957.jpeg" width=30% height=10%>
 
-![7](https://user-images.githubusercontent.com/66800459/136434583-0bd947dd-0a1e-4016-b089-3c37916cbbed.jpeg)
+<img src="https://user-images.githubusercontent.com/66800459/136434573-71a29700-7566-4d8d-a307-5c3cdec99a5d.jpeg" width=30% height=10%>
 
-![6](https://user-images.githubusercontent.com/66800459/136434585-3bc428f6-8376-4ccb-8fdf-5ea2a1398121.jpeg)
+<img src="https://user-images.githubusercontent.com/66800459/136434583-0bd947dd-0a1e-4016-b089-3c37916cbbed.jpeg" width=30% height=10%>
+
+<img src="https://user-images.githubusercontent.com/66800459/136434585-3bc428f6-8376-4ccb-8fdf-5ea2a1398121.jpeg" width=30% height=10%>
 
 
 
